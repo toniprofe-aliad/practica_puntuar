@@ -23,6 +23,7 @@ a {
     color: black;
     text-decoration: none;
     font-size: 1.125rem;
+    text-transform: capitalize;
 }
 /* FOOTER */
 footer {
