@@ -4,11 +4,22 @@ html {
     font-family: sans-serif;
 }
 body {
-    padding: 1.25rem;
     background-color: #e8f9ff;
 }
-/* HEADER */
+/* @GLOBAL */
+header,main,footer{
+    display: flex;
+    justify-content: center;
+}
+#header,#main,#footer{
+    flex-basis: 1366px;
+    padding: 1rem;
+}
+/* @HEADER */
 header {
+
+}
+#header{
     display: flex;
     justify-content: space-between;
 }
@@ -25,20 +36,27 @@ a {
     font-size: 1.125rem;
     text-transform: capitalize;
 }
-/* FOOTER */
+/* @FOOTER */
 footer {
     background-color: #647378;
     color: white;
-    padding: 1.25rem;
+}
+footer a{
+    color: white;
+}
+#footer{
     display: flex;
 }
 .izq {
-    flex-grow: 0.5;
+    flex-grow: 1;
     display: flex;
 }
 ul {
     list-style-type: none;
-    flex-basis: 25vw;
+    flex-basis: 50%;
+}
+.redes_sociales{
+    padding: 0;
 }
 li {
     margin-bottom: 1rem;
