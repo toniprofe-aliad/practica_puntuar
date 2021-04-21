@@ -15,19 +15,33 @@
         <!-- HEADER -->
         <header>
             <section id="header">
-                <!-- Logotipo de la empresa -->
-                <img
-                    class="logo"
-                    src="./img/logo_instagram.svg"
-                    alt="logotipo de instagram en color negro"
-                />
-                <!-- Navegador principal -->
-                <nav>
-                    <a>Inicio</a>
-                    <a href="#">servicios</a>
-                    <a href="#">galeria</a>
-                    <a href="#">contactar</a>
-                </nav>
+                <!-- Zona de logo y menu -->
+                <article class="menu">
+                    <!-- Logotipo de la empresa -->
+                    <img
+                        class="logo"
+                        src="./img/logo_instagram.svg"
+                        alt="logotipo de instagram en color negro"
+                    />
+                    <!-- Navegador principal -->
+                    <nav>
+                        <a>Inicio</a>
+                        <a href="#">servicios</a>
+                        <a href="#">galeria</a>
+                        <a href="#">contactar</a>
+                    </nav>
+                </article>
+                <!-- Banner RETINA-DISPLAY -->
+                <picture>
+                    <!-- ESCRITORIO -->
+                    <!-- elegir imagen -->
+                    <source srcset="
+                        ./img/banner_inicio.jpg 1x,
+                        ./img/banner_inicio@2x.jpg 2x
+                    ">
+                    <!-- imagen con alt -->
+                    <img class="banner" src="" alt="banner de la empresa instagram">
+                </picture>
             </section>
         </header>
         <!-- MAIN -->
