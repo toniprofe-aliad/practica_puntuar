@@ -45,6 +45,15 @@ a {
 .banner {
     width: 100%;
 }
+/* BANNER con solo CSS */
+div.banner{
+    /* tontorron */
+    background-image: url(./img/banner_inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}
+
 /* @FOOTER */
 footer {
     background-color: #647378;
@@ -80,3 +89,8 @@ li {
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+
