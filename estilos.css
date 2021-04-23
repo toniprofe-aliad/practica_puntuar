@@ -15,6 +15,12 @@ header,main,footer{
     flex-basis: 1366px;
     padding: 1rem;
 }
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.125rem;
+    text-transform: capitalize;
+}
 /* @HEADER */
 header {
 
@@ -23,35 +29,18 @@ header {
 
 }
 /* ARTICLE => Logo / Nav */
-article.menu{
+.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
-.logo {
+.menu__logo {
 }
-nav {
+.menu__navegador{
     flex-basis: 30%;
     display: flex;
     justify-content: space-between;
-}
-a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.125rem;
-    text-transform: capitalize;
-}
-.banner {
-    width: 100%;
-}
-/* BANNER con solo CSS */
-div.banner{
-    /* tontorron */
-    background-image: url(./img/banner_inicio.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom center;
 }
 
 /* @FOOTER */
@@ -65,32 +54,27 @@ footer a{
 #footer{
     display: flex;
 }
-.izq {
+.izquierda {
     flex-grow: 1;
     display: flex;
 }
-ul {
+.izquierda__redesSociales, .izquierda__legalidades {
     list-style-type: none;
     flex-basis: 50%;
 }
-.redes_sociales{
+.izquierda__redesSociales{
     padding: 0;
 }
-li {
+footer ul li {
     margin-bottom: 1rem;
 }
-.titulo {
+.tituloFooter {
     font-size: 1.125rem;
     font-weight: bolder;
 }
-.der {
+.derecha {
     flex-grow: 3;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-
